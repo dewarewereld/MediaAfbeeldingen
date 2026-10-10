@@ -33,15 +33,27 @@ def compress(data):
     return buf.getvalue(), q, img.size
 
 def main():
-    ids = [l.strip() for l in open("ids.txt") if l.strip() and not l.startswith("#")]
-    ids = list(dict.fromkeys(ids))
+    # Regel: "<media_id>" of "<media_id> <source_url>" (URL nodig als het bericht nog niet gepubliceerd is)
+    entries = {}
+    for l in open("ids.txt"):
+        l = l.strip()
+        if not l or l.startswith("#"):
+            continue
+        parts = l.split()
+        entries[parts[0]] = parts[1] if len(parts) > 1 else None
+    ids = list(entries)
     os.makedirs(OUT, exist_ok=True)
     rows = []
     for mid in ids:
         try:
-            meta = json.loads(get(f"{SITE}/wp-json/wp/v2/media/{mid}"))
-            src = meta["source_url"]
-            title = meta.get("title", {}).get("rendered", "")
+            if entries[mid]:
+                src = entries[mid]
+                meta = {"slug": os.path.splitext(os.path.basename(src))[0]}
+                title = meta["slug"]
+            else:
+                meta = json.loads(get(f"{SITE}/wp-json/wp/v2/media/{mid}"))
+                src = meta["source_url"]
+                title = meta.get("title", {}).get("rendered", "")
             data = get(src)
             size = len(data)
             if size <= LIMIT:
