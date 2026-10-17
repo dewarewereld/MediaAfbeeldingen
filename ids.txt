@@ -1,4 +1,4 @@
 # Media-ID's van afbeeldingen die verkleind moeten worden (grens: 200 KB).
 # Eén per regel: "<media_id>" of "<media_id> <source_url>".
 # De URL is nodig als het bijbehorende bericht nog niet gepubliceerd is.
-12995 https://de-ware-wereld.com/wp-content/uploads/2026/10/deel-3-911.jpeg
+13001 https://de-ware-wereld.com/wp-content/uploads/2026/10/deel-4-911.jpeg
