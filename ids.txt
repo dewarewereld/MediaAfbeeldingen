@@ -1,14 +1,4 @@
 # Media-ID's van afbeeldingen die verkleind moeten worden (grens: 200 KB).
 # Eén per regel: "<media_id>" of "<media_id> <source_url>".
 # De URL is nodig als het bijbehorende bericht nog niet gepubliceerd is.
-13183 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-0.jpeg
-13184 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-1.jpeg
-13185 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-2.jpeg
-13186 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-3.jpeg
-13187 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-4.jpeg
-13188 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-5.jpeg
-13189 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-6.jpeg
-13190 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-7.jpeg
-13191 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-8.jpeg
-13192 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-9.jpeg
-13193 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-10.jpeg
+13208 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-introductie.jpeg
