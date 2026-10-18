@@ -1,18 +1,14 @@
 # Media-ID's van afbeeldingen die verkleind moeten worden (grens: 200 KB).
 # Eén per regel: "<media_id>" of "<media_id> <source_url>".
 # De URL is nodig als het bijbehorende bericht nog niet gepubliceerd is.
-13115 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-11.jpeg
-13116 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-12.jpeg
-13117 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-13.jpeg
-13118 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-14.jpeg
-13119 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-15.jpeg
-13120 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-16.jpeg
-13121 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-17.jpeg
-13122 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-18.jpeg
-13123 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-19.jpeg
-13124 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-20.jpeg
-13125 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-21.jpeg
-13126 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-22.jpeg
-13127 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-23.jpeg
-13128 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-24.jpeg
-13129 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-25.jpeg
+13183 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-0.jpeg
+13184 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-1.jpeg
+13185 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-2.jpeg
+13186 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-3.jpeg
+13187 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-4.jpeg
+13188 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-5.jpeg
+13189 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-6.jpeg
+13190 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-7.jpeg
+13191 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-8.jpeg
+13192 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-9.jpeg
+13193 https://de-ware-wereld.com/wp-content/uploads/2026/10/vlinder-10.jpeg
